@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.imagem {
+    width: 400px;
+    margin: 30px auto;
+    bottom: 200px;
+    left: 100px;
+}
