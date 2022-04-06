@@ -35,3 +35,12 @@ else if (g > e && g > f) {
     console.log(g)
 }
 
+const h = -85;
+
+if (h > 0) {
+    console.log("positive")
+}
+
+else if (h < 0) {
+    console.log("negative")
+}
