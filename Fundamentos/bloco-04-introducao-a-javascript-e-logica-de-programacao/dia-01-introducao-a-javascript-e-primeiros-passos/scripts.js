@@ -44,3 +44,19 @@ if (h > 0) {
 else if (h < 0) {
     console.log("negative")
 }
+
+const i = 45;
+const j = 90;
+const k = 45;
+
+if (i + j + k == 180 ) {
+    console.log(true)
+}
+
+else if (i + j + k != 180) {
+    console.log(false)
+}
+
+else if (i < 0 || j < 0 || k < 0) {
+    console.log("Angulo inválido")
+}
