@@ -86,3 +86,18 @@ else if (nota >= 50) {
 else if (nota < 50) {
     console.log("F")
 }
+
+else if (nota < 0 || nota > 100) {
+    console.log("Nota inválida")
+}
+
+const l = 5;
+const m = 10;
+const n = 15;
+
+if (l % 2 == 0 || m % 2 == 0 || n % 2 == 0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+
