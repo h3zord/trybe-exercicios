@@ -19,3 +19,19 @@ else if (d > c) {
     console.log(d)
 }
 
+const e = 60;
+const f = 80;
+const g = 100;
+
+if (e > f && e > g) {
+    console.log(e)
+}
+
+else if (f > e && f > g) {
+    console.log(f)
+}
+
+else if (g > e && g > f) {
+    console.log(g)
+}
+
