@@ -61,6 +61,33 @@ else if (i < 0 || j < 0 || k < 0) {
     console.log("Angulo inválido")
 }
 
+const chessPiece = 'bispo';
+
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo-> Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha-> Diagonal, horizontal e vertical.');
+    break;
+  case 'cavalo':
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+    break;
+  case 'torre':
+    console.log('Torre -> Horizontal e vertical.');
+    break;
+  case 'peão':
+    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida!');
+    break;
+}
+
+
 const nota = 60;
 
 if (nota >= 90) {
@@ -110,3 +137,19 @@ if (o % 2 != 0 || p % 2 != 0 || q % 2 != 0) {
 } else {
     console.log("false")
 }
+
+const custo = 100
+const venda = 150
+const unidades = 1000
+const custoTotal = custo * 1.2 * unidades
+const valorVenda = venda * unidades
+
+switch (unidades) {
+    case 1000:
+        console.log(valorVenda - custoTotal);
+        break;    
+}
+
+
+
+
