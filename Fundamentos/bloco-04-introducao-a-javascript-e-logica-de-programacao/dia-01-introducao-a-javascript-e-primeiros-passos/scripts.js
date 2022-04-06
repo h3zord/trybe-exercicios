@@ -101,3 +101,12 @@ if (l % 2 == 0 || m % 2 == 0 || n % 2 == 0) {
     console.log("false")
 }
 
+const o = 2
+const p = 4
+const q = 6
+
+if (o % 2 != 0 || p % 2 != 0 || q % 2 != 0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
