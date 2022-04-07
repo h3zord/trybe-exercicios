@@ -32,3 +32,40 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //         console.log("Valor menos que 20")
 //     }
 
+// let maiorValor = 0;
+
+// for (let index = 0; index < numbers.length; index+= 1) {
+
+//     if (numbers[index] > maiorValor) {
+//         maiorValor = numbers[index]
+//     } else {
+//         maiorValor = maiorValor;
+//     }
+// }
+
+// console.log(maiorValor);
+
+// valoresImpares = 0;
+
+// for (let index = 0; index < numbers.length; index+= 1) {
+
+//     if (numbers[index] % 2 != 0) {
+//         valoresImpares = valoresImpares + 1
+//     } 
+// }
+
+// console.log(valoresImpares)
+
+let menorValor;
+
+for (let index = 0; index < numbers.length; index += 1) {
+
+    if (menorValor > numbers[index]) {
+        menorValor = numbers[index]
+    } else {
+        menorValor = menorValor
+    }
+
+}
+
+console.log(menorValor);
