@@ -5,5 +5,6 @@ let info = {
     recorrente: 'Sim',
   };
 
-  console.log("Bem-Vinda, " + info["personagem"]);
-  console.log(info)
+ for (let index in info) {
+     console.log(index);
+ }
