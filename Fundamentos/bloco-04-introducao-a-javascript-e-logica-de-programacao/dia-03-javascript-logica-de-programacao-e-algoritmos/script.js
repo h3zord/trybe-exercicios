@@ -37,19 +37,19 @@
 
 // console.log(teste);
 
-let array = ['java', 'javascript', 'python', 'html', 'css'];
-let maiorPalavra = array[0].length;
-let teste = ""
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let maiorPalavra = array[0].length;
+// let teste = ""
 
 
 
-for (let index = 0; index < array.length; index += 1) {
-    let contador = array[index].length;
-    if (contador < maiorPalavra) {
-        maiorPalavra = array[index].length;    
-        teste = array[index]
+// for (let index = 0; index < array.length; index += 1) {
+//     let contador = array[index].length;
+//     if (contador < maiorPalavra) {
+//         maiorPalavra = array[index].length;    
+//         teste = array[index]
 
-}
-}
+// }
+// }
 
-console.log(teste);
+// console.log(teste);
