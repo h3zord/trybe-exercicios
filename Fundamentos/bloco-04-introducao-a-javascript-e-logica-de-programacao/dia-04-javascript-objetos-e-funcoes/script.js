@@ -1,25 +1,33 @@
-let leitor = {
-    nome: 'Julia',
-    sobrenome: 'Pessoa',
-    idade: 21,
-    livrosFavoritos:
+// let storage = '';
 
-    [
-      {
-        titulo: 'O Pior Dia de Todos',
-        autor: 'Daniela Kopsch',
-        editora: 'Tordesilhas',
-      },
+// function verificaPalind (palavra) {
+//     let teste = palavra
+//     for (let i = teste.length -1; i >= 0; i -= 1); {
+//             storage = storage + teste[i];
+
+//     }
+//             if (teste == storage) {
+//                 console.log("true")
+//             } else {
+//                 console.log("false")            
+//             }
     
 
-    
-      {
-        titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-        autor: 'JK Rowling',
-        editora: 'Rocco',
-      },
-    ]
+// }
 
-  };
 
-  console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.');
+// verificaPalind('arara');
+
+let maiorValor = 0;
+
+function maiorIndice (array) {
+
+    for (let i  =  0; i < array.length; i += 1) {
+        if (array[i] > maiorValor) {
+            maiorValor = array[i]
+        }
+    }
+        console.log("O indice do maior valor é " + array.indexOf(maiorValor))
+}
+
+maiorIndice[1, 4, 7, 9, 87, 4, 76, 43]
