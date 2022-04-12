@@ -57,3 +57,26 @@
 // }
 
 // console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
+
+// function numeroRepetido (array) {
+//     let maisVezes = 0;
+//     let numero = 0;
+
+//     for (let index in array) {
+//         let maisvezes2 = 0;
+//         for (let contador in array) {
+//             if (array[index] == array[contador]) {
+//                 maisvezes2 += 1;
+//                 if (maisvezes2 > maisVezes) {
+//                     maisVezes = maisvezes2;
+//                     numero = array[index];
+
+//                 }
+//             }
+//         }
+//     }
+
+//         return numero;
+// }
+
+// console.log(numeroRepetido([2, 3, 2, 5, 8, 2, 3, 3, 4, 3]));
