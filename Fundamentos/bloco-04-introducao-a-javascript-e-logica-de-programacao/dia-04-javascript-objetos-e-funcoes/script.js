@@ -41,3 +41,19 @@
 // }
 
 // console.log(maiorIndice([2, 4, 6, 7, 10, 0, -3]))
+
+
+// function maiorNome (array) {
+//     let maiorPalavra = 0;
+//     let nome = ""
+//     for (let index in array) {
+//         if (array[index].length > maiorPalavra) {
+//             maiorPalavra = array[index].length
+//             nome = array[index]
+//         }
+//     }
+
+//     return nome
+// }
+
+// console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
