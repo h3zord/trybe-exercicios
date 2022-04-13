@@ -60,7 +60,8 @@
         */
 
     function textP (text) {
-        document.getElementsByTagName("p")[0].innerText = text;
+        let texto = document.getElementsByTagName("p")[0]
+            texto.innerText = text;
     }
 
     textP("Espero que com muito conhecimento em programação.");
@@ -97,7 +98,17 @@
 
     changeMaiusc()
 
+    function showMe () {
+        let content = document.getElementsByTagName("p");
+            for (let contador in content) {
+                console.log(content[contador].innerHTML);
+            }
+
+    }
+
+    showMe ()
     
+
     
         
     
