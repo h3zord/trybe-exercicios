@@ -60,17 +60,26 @@
         */
 
     function textP (text) {
-        document.getElementsByTagName("p")[0].innerText = text
+        document.getElementsByTagName("p")[0].innerText = text;
     }
 
     textP("Espero que com muito conhecimento em programação.");
 
     function mudarCor () {
-    let changeCOlor = document.getElementsByTagName("main")[0]
-        changeCOlor.style.backgroundColor = "rgb(76,164,109)"
+        let changeCOlor = document.getElementsByTagName("main")[0];
+            changeCOlor.style.backgroundColor = "rgb(76,164,109)"
     }
     
     mudarCor()
+
+    function mudarCor1 () {
+        let changeCOlor1 = document.getElementsByClassName("center-content")[0];
+            changeCOlor1.style.backgroundColor = "white"
+    }
+
+    mudarCor1 ()
+
+    
         
     
 
