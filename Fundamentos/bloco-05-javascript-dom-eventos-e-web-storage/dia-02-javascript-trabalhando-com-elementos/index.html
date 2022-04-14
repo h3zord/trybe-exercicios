@@ -61,19 +61,37 @@
 
         let acessBody = document.getElementsByTagName('body')[0];
         let joinH1 = document.createElement('h1');
-        joinH1.innerText = 'Exercício 5.2 - JavaScript DOM';
-        acessBody.appendChild(joinH1);
+            joinH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+            acessBody.appendChild(joinH1);
 
         let joinMain = document.createElement('main');
-        joinMain.className = 'main-content';
-        acessBody.appendChild(joinMain);
+            joinMain.className = 'main-content';
+            acessBody.appendChild(joinMain);
 
-        let acessMain = document.getElementsByClassName('main-content');
-        let joinSection = createElement('section');
-        joinSection.className = 'center-content';
-        acessMain.appendChild(joinSection);
+        let acessMain = document.getElementsByClassName('main-content')[0];
+        let joinSection = document.createElement('section');
+            joinSection.className = 'center-content';
+            acessMain.appendChild(joinSection);
 
-        
+        let acessSection = document.getElementsByClassName('center-content')[0];
+        let joinP = document.createElement('p');
+            joinP.innerText = "UM TEXTO AQUI";
+            acessSection.appendChild(joinP);
+
+        let join1Section = document.createElement('section');
+            join1Section.className = 'left-content'
+            acessMain.appendChild(join1Section);
+
+        let join2Section = document.createElement('section');
+            join2Section.className = 'right-content';
+            acessMain.appendChild(join2Section);
+
+            
+
+
+
+
+
 
 
         
