@@ -61,6 +61,7 @@
 
         let acessBody = document.getElementsByTagName('body')[0];
         let joinH1 = document.createElement('h1');
+            joinH1.className = 'title';
             joinH1.innerText = 'Exercício 5.2 - JavaScript DOM';
             acessBody.appendChild(joinH1);
 
@@ -105,15 +106,21 @@
                 acessUl.appendChild(joinLi);
             }
 
-        let joinH3 = document.createElement('h3');            j
-        let join1H3 = document.createElement('h3');            
-        let join2H3 = document.createElement('h3');            
-        acessMain.appendChild(joinH3);
-        acessMain.appendChild(join1H3);
-        acessMain.appendChild(join2H3);
-            
+        let joinH3 = document.createElement('h3');          
+            joinH3.className = 'description'
+        let join1H3 = document.createElement('h3');
+            join1H3.className = 'description'         
+        let join2H3 = document.createElement('h3');
+            join2H3.className = 'description'            
+            acessMain.appendChild(joinH3);
+            acessMain.appendChild(join1H3);
+            acessMain.appendChild(join2H3);
+
+        acessMain.removeChild(acessSection1);
         
             
+        
+        
 
 
 
