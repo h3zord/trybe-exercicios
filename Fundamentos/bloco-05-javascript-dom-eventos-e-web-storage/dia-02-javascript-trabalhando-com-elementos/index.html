@@ -86,7 +86,36 @@
             join2Section.className = 'right-content';
             acessMain.appendChild(join2Section);
 
+        let acessSection1 = document.getElementsByClassName('left-content')[0];
+        let joinImg = document.createElement('img');
+            joinImg.className = 'small-image';
+            joinImg.src = 'https://picsum.photos/200'
+            acessSection1.appendChild(joinImg);
+
+        let acessSection2 = document.getElementsByClassName('right-content')[0];
+        let joinUl = document.createElement('ul');
+            acessSection2.appendChild(joinUl);
+
+        let acessUl = document.getElementsByTagName('ul')[0];
             
+            let array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+            for (let index in array) {
+                let joinLi = document.createElement('li');
+                joinLi.innerText = array[index];
+                acessUl.appendChild(joinLi);
+            }
+
+        let joinH3 = document.createElement('h3');            j
+        let join1H3 = document.createElement('h3');            
+        let join2H3 = document.createElement('h3');            
+        acessMain.appendChild(joinH3);
+        acessMain.appendChild(join1H3);
+        acessMain.appendChild(join2H3);
+            
+        
+            
+
+
 
 
 
