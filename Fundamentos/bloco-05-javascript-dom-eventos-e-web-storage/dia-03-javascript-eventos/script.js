@@ -112,7 +112,44 @@ button5.addEventListener('click', function () {
     }
     
   }
-
   
 })
+
+let zoomDays = document.querySelector('#days')
+zoomDays.addEventListener('mouseover', function (event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+})
+
+
+
+
+let zoomDays1 = document.querySelector('#days');
+    zoomDays1.addEventListener('mouseout', function(event) {    
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  })
+
+
+  
+  function myTask(task) {
+    let tarefas = document.querySelector('.my-tasks');
+    let createTask = document.createElement('span');
+    createTask.innerHTML = task;
+    tarefas.appendChild(createTask)
+  }
+
+  myTask('Estudar');
+
+
+function legenda(cor) {
+  let tarefas = document.querySelector('.my-tasks');
+  let createColor = document.createElement('div');
+  createColor.className = 'task';
+  createColor.style.backgroundColor = cor;
+  tarefas.appendChild(createColor)
+
+}
+
+legenda('green')
 
