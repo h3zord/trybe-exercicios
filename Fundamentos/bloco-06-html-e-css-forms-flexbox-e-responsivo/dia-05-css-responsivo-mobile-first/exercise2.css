@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (max-width: 375px) {
+ 
+    body {
+        font-size: 21px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    h2 {
+     margin-left: 15px;
+     font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #tittle {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    nav {
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #tittle {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    body {
+        font-size: 28px;
+    }
+}
