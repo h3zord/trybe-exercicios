@@ -1,11 +1,16 @@
-const factorial = number => {
-  let result = 1;
+const longestWord = text => {
+  let wordArray = text.split(' ');
+  let maxLength = 0;
+  let result = '';
 
-  for (let index = 2; index <= number; index += 1) {
-      result *= index;
+  for (const word of wordArray) {
+      if (word.length > maxLength) {
+          maxLength = word.length;
+          result = word;
+      }
   }
 
   return result;
 }
 
-console.log(factorial(5));
+console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"));
