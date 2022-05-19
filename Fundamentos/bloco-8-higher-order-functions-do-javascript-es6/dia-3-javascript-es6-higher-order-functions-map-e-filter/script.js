@@ -124,10 +124,7 @@ function fantasyOrScienceFictionAuthors(arr) {
 
 //   console.log(oldBooks(books));
 
-function authorWith3DotsOnName(arr) {
-  // escreva seu código aqui
-const result =  arr.find((element) => element.author.name[1] === '.' && element.author.name[4] === '.' && element.author.name[7] === '.')
-return result.name
-}
+const authorWith3DotsOnName = (arr) => arr.filter((element) => element.author.name[1] === '.' && element.author.name[4] === '.' && element.author.name[7] === '.').map((element) => element.name)
+
 
 console.log(authorWith3DotsOnName(books));
