@@ -15,7 +15,7 @@ async function getCrypto() {
 const showCoin = async () => {
     const coins = await getCrypto();
     const recoverUl = document.getElementById('coinContainer');
-    coins.forEach(element => {
+    coins.filter((moeda, index) => index <= 9).forEach(element => {
       const createLi = document.createElement('li');
         createLi.innerHTML = `${element.name} (${element.symbol}): $${element.priceUsd}`;
         recoverUl.appendChild(createLi);
@@ -41,3 +41,4 @@ window.onload = () => showCoin();
   // }
   
   // window.onload = () => setCoins()
+
